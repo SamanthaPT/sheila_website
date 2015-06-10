@@ -1,0 +1,68 @@
+a.campaign_cta {
+	right: 40px;
+}
+
+.main_nav {
+	padding: 0 40px;
+}
+
+header {
+  height: 75px;
+}
+
+.main_nav ul li a {
+  line-height: 75px;
+}
+
+.desktop {
+	display: none;
+}
+
+.tablet_portrait {
+	display: block;
+}
+
+.video {
+  width: 530px;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 40px;
+  margin: 28px 0 13px 0;
+}
+
+h2 {
+  font-size: 65px;
+  margin-top: 13px;
+}
+
+h3 {
+  font-size: 17px;
+  margin: 16px 0 40px 0;
+}
+
+.lines {
+  top: 3px;
+  left: 234px;
+  width: 530px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

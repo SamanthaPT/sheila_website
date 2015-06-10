@@ -335,6 +335,14 @@ img.border {
 	background-color: #0092cc;
 }
 
+.desktop {
+	display: block;
+}
+
+.tablet_portrait {
+	display: none;
+}
+
 
 
 
