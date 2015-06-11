@@ -4,6 +4,7 @@ a.campaign_cta {
 
 .main_nav {
 	padding: 0 40px;
+	width: 100%;
 }
 
 header {
@@ -60,7 +61,7 @@ h6 {
 
 .lines {
 	top: 3px;
-	left: 234px;
+	left: 195px;
 	width: 530px;
 }
 
