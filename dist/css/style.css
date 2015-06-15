@@ -343,6 +343,14 @@ img.border {
 	display: none;
 }
 
+.mobile {
+	display: none;
+}
+
+.all_except_mobile {
+	display: block;
+}
+
 
 
 

@@ -18,7 +18,7 @@
 	<!-- Media Queries -->
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:1001px) and (max-width:1100px)" href="dist/css/tablet_landscape.css" />
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:761px) and (max-width:1000px)" href="dist/css/tablet_portrait.css" />
-	<!--link rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:760px)" href="dist/css/mobile.css" /-->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:760px)" href="dist/css/mobile.css" />
 	
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
@@ -40,7 +40,8 @@
   
 	<header>
 	
-		<div class="main_nav">
+		<!-- DESKTOP NAV  -->
+		<div class="main_nav all_except_mobile">
 		
 			<ul class="main_menu">
 				<li><a href="index.html">Home</a></li>
@@ -60,6 +61,39 @@
 			<a class="campaign_cta" href="http://igg.me/at/inamomentmovie/x/10890212" target="_blank">Contribute</a>
 		
 		</div>
+		<!-- -->
+		
+		
+		<!-- MOBILE NAV -->
+		<nav class="navbar navbar-default mobile">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			
+				<a class="campaign_cta" href="http://igg.me/at/inamomentmovie/x/10890212" target="_blank">Contribute</a>
+				
+			  </div>
+			  
+			  <div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active"><a href="about.html">About</a></li>
+				  <li><a href="cast_and_crew.html">Cast & Crew</a></li>
+				  <li><a href="filming_locations.html">Filming Locations</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				  <li class="dropdown-header">Share</li>
+				  <li><a class="social facebook" href="https://www.facebook.com/sharer/sharer.php?app_id=2392863781&sdk=joey&u=https%3A%2F%2Fwww.indiegogo.com%2Fprojects%2F1281304&display=popup&ref=plugin&src=share_button" target="_blank"></a></li>
+				  <li><a class="social twitter"  href="http://twitter.com/share?text=Help%20make%20it%20happen%20for%20In%20a%20Moment%20on%20@indiegogo&url=http://igg.me/p/1281304/twtr" target="_blank"></a></li>
+				</ul>
+			  </div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+		<!-- -->
 		
 	</header>
 	
@@ -94,7 +128,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
