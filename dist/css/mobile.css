@@ -25,19 +25,19 @@ ul.main_menu {
 }
 
 h1 {
-	font-size: 35px;
+	font-size: 25px;
 	line-height: 40px;
-	margin: 28px 0 13px 0;
+	margin: 25px 0 0px 0;
 }
 
 h2 {
-	font-size: 65px;
-	margin-top: 13px;
+	font-size: 30px;
+	margin-top: 0px;
 }
 
 h3 {
-	font-size: 17px;
-	margin: 16px 0 40px 0;
+	font-size: 14px;
+	margin: 0px 0 40px 0;
 }
 
 h4 {
@@ -188,9 +188,9 @@ a.campaign_cta {
 	border-color: #ccc;
 }
 
-/*.navbar-default {
-	border-color: #f8f8f8;
-}*/
+.video {
+	width: 280px;
+}
 
 
 
