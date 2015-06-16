@@ -47,7 +47,8 @@ h4 {
 }
 
 h5 {
-	margin: 30px 0 35px 0;
+	margin: 20px 0 20px 0;
+	font-size: 30px;
 }
 
 h6 {
@@ -73,11 +74,13 @@ h6 {
 }
 
 .column_left {
-	width: 50%;
+	width: 100%;
+	float: none;
 }
 
 .column_right {
-	width: 50%;
+	width: 100%;
+	float: none;
 }
 
 .gallery {
@@ -197,6 +200,19 @@ a.campaign_cta {
 .text_content {
 	padding: 0 10px;
 	width: 100%;
+}
+
+.column_container ul li {
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.panel-heading a {
+	font-size: 14px;
+}
+
+.panel-group .panel {
+	margin-bottom: 0px;
 }
 
 
