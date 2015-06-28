@@ -21,7 +21,8 @@ ul.main_menu {
 
 .share_social {
 	width: 180px;
-	right: 120px;
+	/*right: 120px;*/
+	right: 0;
 }
 
 .share_social span {
