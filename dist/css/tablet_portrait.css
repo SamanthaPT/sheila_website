@@ -16,7 +16,7 @@ ul.main_menu {
 }
 
 .main_menu li {
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .share_social {
@@ -42,6 +42,7 @@ h1 {
 h2 {
 	font-size: 65px;
 	margin-top: 13px;
+	letter-spacing: 5px;
 }
 
 h3 {

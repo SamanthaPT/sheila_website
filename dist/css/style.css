@@ -56,12 +56,13 @@ h1 {
 }
 
 h2 {
-	font-family: 'Della Respira', serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 100px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
 	margin-top: 15px;
+	letter-spacing: 10px;
 }
 
 h3 {
